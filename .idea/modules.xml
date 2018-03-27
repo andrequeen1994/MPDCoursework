@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MPDcw.iml" filepath="$PROJECT_DIR$/MPDcw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPDCoursework.iml" filepath="$PROJECT_DIR$/MPDCoursework.iml" />
+      <module fileurl="file://C:\Users\Andre\Desktop\MPDCoursework-master\MPDCoursework\MPDcw.iml" filepath="C:\Users\Andre\Desktop\MPDCoursework-master\MPDCoursework\MPDcw.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Andre\Desktop\MPDCoursework-master\MPDCoursework\app\app.iml" filepath="C:\Users\Andre\Desktop\MPDCoursework-master\MPDCoursework\app\app.iml" />
     </modules>
   </component>
 </project>
