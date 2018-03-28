@@ -23,7 +23,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
-
+/**
+ * Created by Andre Queen on 12/03/2018.
+ * Matric Number ; S1635221
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
 
@@ -35,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+        getSupportActionBar().setTitle("Traffic Scotland (S1635221)");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         currentButton = (Button)findViewById(R.id.currentButton);

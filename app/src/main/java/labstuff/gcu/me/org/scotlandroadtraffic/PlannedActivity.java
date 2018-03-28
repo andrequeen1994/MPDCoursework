@@ -45,9 +45,9 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 /**
- * Created by Andre on 12/03/2018.
+ * Created by Andre Queen on 12/03/2018.
+ * Matric Number ; S1635221
  */
-
 public class PlannedActivity extends AppCompatActivity implements View.OnClickListener {
     private DatePicker datePicker;
     private Calendar calendar;
@@ -150,7 +150,7 @@ public class PlannedActivity extends AppCompatActivity implements View.OnClickLi
         showDate(year, month+1, day);
 
 
-        getSupportActionBar().setTitle("Planned Roadworks");
+        getSupportActionBar().setTitle("Planned Roadworks (S1635221)");
 
         if(isServicesOK()){
             System.out.println("Google Play Services Working");

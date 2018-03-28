@@ -44,7 +44,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 
 /**
- * Created by Andre on 12/03/2018.
+ * Created by Andre Queen on 12/03/2018.
+ * Matric Number ; S1635221
  */
 
 public class CurrentActivity extends AppCompatActivity implements View.OnClickListener {
@@ -132,7 +133,7 @@ public class CurrentActivity extends AppCompatActivity implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceState)
     {
         //set the top bar
-        getSupportActionBar().setTitle("Current Incidents");
+        getSupportActionBar().setTitle("Current Incidents (S1635221)");
 
 
         if(isServicesOK()){

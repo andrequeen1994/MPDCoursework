@@ -30,7 +30,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.util.Date;
 
 /**
- * Created by Andre on 13/03/2018.
+ * Created by Andre Queen on 12/03/2018.
+ * Matric Number ; S1635221
  */
 
 public class DetailActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -85,7 +86,7 @@ public class DetailActivity extends AppCompatActivity implements OnMapReadyCallb
         startTime.setText("Starts: " + start );
 
         //set the title of this activity to be the street name
-        getSupportActionBar().setTitle(titleH);
+        getSupportActionBar().setTitle(titleH + "(S1635221)");
 
         getLocationPermission();
 
